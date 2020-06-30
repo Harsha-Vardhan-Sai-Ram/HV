@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+.nav-wrapper{
+    width: 100%;
+    padding: 6px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 20;
+}
+.about{
+    background-image: url(wallpapers/Glacier_Falls_-_MacBook_Pro_Wallpaper.jpg);
+    height: auto;
+    max-width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.about_II{
+    height: auto;
+    max-width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.58);
+}
+.navbar{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.navbar a:hover{
+    
+    border: 2px solid; 
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+.avatar{
+    padding-top: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.Persinfo{
+    margin-top: 50px;
+}
+.navbar-d{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-d.scrolled{
+  background:#000;
+}
+.certificates{
+    margin-top: 50px;
+    background-image: url(wallpapers/camping-at-night-hd-wallpaper-2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    width: 100%;
+}
+.certificates-bg{
+    background-color: rgba(0,0,0,0.58); 
+    min-height: 250px;
+    padding: 100px 25px 100px 25px;
+}
+.certi{
+    height: 140px;
+    width: 220px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.certi:hover{
+    height: 240px;
+    width: 320px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 500ms ease-in-out;
+    z-index: 1;
+}
